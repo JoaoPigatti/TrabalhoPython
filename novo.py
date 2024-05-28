@@ -2,9 +2,9 @@ import requests
 import pandas as pd
 
 secao = requests.Session()
-secao.auth = ("alex.machado", "aszxcfd123")
+secao.auth = ("usuario", "senha")
 
-resposta = secao.get(url="https://nacional-prd-protheus.totvscloud.com.br:12563/rest/wsgestor/comissao?PeriodoInicial=20240501&PeriodoFinal=20240531")
+resposta = secao.get(url="https")
 print(resposta.json())
 
 df1 = pd.DataFrame(resposta.json())
