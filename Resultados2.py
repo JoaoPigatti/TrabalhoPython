@@ -3,7 +3,7 @@ import requests
 import json
 from datetime import date
 
-url = "https://nacional-prd-protheus.totvscloud.com.br:12529/rest/INT_SHELL_BO_NOVOANT"
+url = "use a api "
 
 #Função para tratamento de data *zfill usado para completar com zero
 def update ():
